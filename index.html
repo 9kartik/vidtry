@@ -3,7 +3,6 @@
 <body> 
 
 <video width="400" controls id="player" src="mov_bbb.mp4">
-  <track id="trck" src="track.vtt" kind="subtitles" srclang="en" label="English"></track>
   Your browser does not support HTML5 video.
 </video>
 <p>
@@ -12,6 +11,7 @@ Video courtesy of
 </p>
 <div class="commentBox">
 	<input type="text" id="cmnt">
+	<button id="btn" onclick="addComment()">Add Comment</button>
 </div>
 <script src="script.js"></script>
 </body> 
